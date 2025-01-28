@@ -3,12 +3,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    background-color: #fdfffc;
+    color: #011627;
+    font-size: 100%;
 }
 
 img {
@@ -18,10 +18,19 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #e71d36;
     text-decoration: none;
 }
-
 a:hover {
-    color: darkmagenta;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.75em;
 }
